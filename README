@@ -1,0 +1,113 @@
+Last login: Mon Sep  6 08:49:13 on ttys000
+aizexin@matao ~ % cd /Users/aizexin/Desktop/DongyuModuleDemo 
+aizexin@matao DongyuModuleDemo % vim Podfile
+aizexin@matao DongyuModuleDemo % pod install
+Ignoring ffi-1.14.2 because its extensions are not built. Try: gem pristine ffi --version 1.14.2
+
+[!] Invalid `Podfile` file: uninitialized constant Pod::Podfile::DongyuModuleDemo.
+
+ #  from /Users/aizexin/Desktop/DongyuModuleDemo/Podfile:1
+ #  -------------------------------------------
+ >  target DongyuModuleDemo do
+ #  
+ #  -------------------------------------------
+aizexin@matao DongyuModuleDemo % pod install
+Ignoring ffi-1.14.2 because its extensions are not built. Try: gem pristine ffi --version 1.14.2
+Analyzing dependencies
+Downloading dependencies
+Installing AFNetworking (4.0.1)
+Generating Pods project
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `DongyuModuleDemo.xcworkspace` for this project from now on.
+Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
+
+[!] Automatically assigning platform `iOS` with version `14.5` on target `DongyuModuleDemo` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+
+[!] Your project does not explicitly specify the CocoaPods master specs repo. Since CDN is now used as the default, you may safely remove it from your repos directory via `pod repo remove master`. To suppress this warning please add `warn_for_unused_master_specs_repo => false` to your Podfile.
+aizexin@matao DongyuModuleDemo % pod install
+Ignoring ffi-1.14.2 because its extensions are not built. Try: gem pristine ffi --version 1.14.2
+Analyzing dependencies
+Pre-downloading: `fuck` from `https://github.com/ASSASSINYM/SwiftMVVM2021.git`
+[!] Unable to find a specification for 'fuck'.
+
+[!] Automatically assigning platform `iOS` with version `14.5` on target `DongyuModuleDemo` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+aizexin@matao DongyuModuleDemo % pod install
+Ignoring ffi-1.14.2 because its extensions are not built. Try: gem pristine ffi --version 1.14.2
+Analyzing dependencies
+Pre-downloading: `SwiftMVVM2021` from `https://github.com/ASSASSINYM/SwiftMVVM2021.git`
+
+[!] Error installing SwiftMVVM2021
+[!] Failed to download 'SwiftMVVM2021': [!] /usr/bin/git clone https://github.com/ASSASSINYM/SwiftMVVM2021.git /var/folders/w9/0rkp1nvs3g9bd1n4252dzh6m0000gn/T/d20210906-2784-kyy0lg --template= --single-branch --depth 1
+
+Cloning into '/var/folders/w9/0rkp1nvs3g9bd1n4252dzh6m0000gn/T/d20210906-2784-kyy0lg'...
+fatal: unable to access 'https://github.com/ASSASSINYM/SwiftMVVM2021.git/': Error in the HTTP2 framing layer
+
+
+[!] Automatically assigning platform `iOS` with version `14.5` on target `DongyuModuleDemo` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+aizexin@matao DongyuModuleDemo % pod install
+Ignoring ffi-1.14.2 because its extensions are not built. Try: gem pristine ffi --version 1.14.2
+Analyzing dependencies
+Pre-downloading: `SwiftMVVM2021` from `https://github.com/ASSASSINYM/SwiftMVVM2021.git`
+[!] Unable to find a specification for 'SwiftMVVM2021'.
+
+[!] Automatically assigning platform `iOS` with version `14.5` on target `DongyuModuleDemo` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+aizexin@matao DongyuModuleDemo % pod trunk register 449636697@qq.com 'mtrepo' --verbose
+Ignoring ffi-1.14.2 because its extensions are not built. Try: gem pristine ffi --version 1.14.2
+opening connection to trunk.cocoapods.org:443...
+opened
+starting SSL for trunk.cocoapods.org:443...
+SSL established, protocol: TLSv1.2, cipher: ECDHE-RSA-AES128-GCM-SHA256
+<- "POST /api/v1/sessions HTTP/1.1\r\nContent-Type: application/json; charset=utf-8\r\nAccept: application/json; charset=utf-8\r\nUser-Agent: CocoaPods/1.10.1\r\nAccept-Encoding: gzip;q=1.0,deflate;q=0.6,identity;q=0.3\r\nHost: trunk.cocoapods.org\r\nContent-Length: 63\r\n\r\n"
+<- "{\"email\":\"449636697@qq.com\",\"name\":\"mtrepo\",\"description\":null}"
+-> "HTTP/1.1 201 Created\r\n"
+-> "Date: Mon, 06 Sep 2021 02:51:06 GMT\r\n"
+-> "Connection: keep-alive\r\n"
+-> "Strict-Transport-Security: max-age=31536000\r\n"
+-> "Content-Type: application/json\r\n"
+-> "Content-Length: 195\r\n"
+-> "X-Content-Type-Options: nosniff\r\n"
+-> "Server: thin 1.6.2 codename Doc Brown\r\n"
+-> "Via: 1.1 vegur\r\n"
+-> "\r\n"
+reading 195 bytes...
+-> "{\"created_at\":\"2021-09-06 02:51:07 UTC\",\"valid_until\":\"2022-01-12 02:51:07 UTC\",\"verified\":false,\"created_from_ip\":\"171.223.227.147\",\"description\":null,\"token\":\"b5128301d8d4bde4324afa7fd192ebb6\"}"
+read 195 bytes
+Conn keep-alive
+[!] Please verify the session by clicking the link in the verification email that has been sent to 449636697@qq.com
+aizexin@matao DongyuModuleDemo % pod trunk me
+Ignoring ffi-1.14.2 because its extensions are not built. Try: gem pristine ffi --version 1.14.2
+  - Name:     mtrepo
+  - Email:    449636697@qq.com
+  - Since:    September 5th, 20:51
+  - Pods:     None
+  - Sessions:
+    - September 5th, 20:51 - January 11th, 2022 20:54. IP:
+    171.223.227.147
+aizexin@matao DongyuModuleDemo % pod spec create MTAlertViewController
+Ignoring ffi-1.14.2 because its extensions are not built. Try: gem pristine ffi --version 1.14.2
+
+Specification created at MTAlertViewController.podspec
+aizexin@matao DongyuModuleDemo % ls  
+DongyuModuleDemo		MTAlertViewController.podspec
+DongyuModuleDemo.xcodeproj	Podfile
+DongyuModuleDemo.xcworkspace	Podfile.lock
+DongyuModuleDemoTests		Pods
+DongyuModuleDemoUITests
+aizexin@matao DongyuModuleDemo % vim MTAlertViewController.podspec
+aizexin@matao DongyuModuleDemo % git tag '1.0.1'
+aizexin@matao DongyuModuleDemo % git push --tags
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+aizexin@matao DongyuModuleDemo % git remote add origin https://github.com/ASSASSINYM/MTPodRepo
+aizexin@matao DongyuModuleDemo % git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/ASSASSINYM/MTPodRepo'
+aizexin@matao DongyuModuleDemo % 
